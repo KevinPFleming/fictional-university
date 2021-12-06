@@ -1,0 +1,54 @@
+[24-Nov-2021 16:39:00 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 7
+[24-Nov-2021 16:39:23 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 7
+[24-Nov-2021 16:39:32 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 7
+[26-Nov-2021 20:50:57 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 9
+[26-Nov-2021 20:50:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 9
+[26-Nov-2021 20:51:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 9
+[26-Nov-2021 20:52:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 9
+[26-Nov-2021 20:54:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 9
+[26-Nov-2021 20:57:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 9
+[26-Nov-2021 21:00:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 9
+[26-Nov-2021 21:02:47 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 9
+[26-Nov-2021 21:04:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 9
+[26-Nov-2021 21:04:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 9
+[26-Nov-2021 21:14:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 9
+[26-Nov-2021 21:15:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 9
+[26-Nov-2021 21:47:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 3 and at least 2 expected in /home/user/Local Sites/fictional-university/app/public/wp-includes/plugin.php:394
+Stack trace:
+#0 /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php(3): add_action('wp_enqueue_scri...')
+#1 /home/user/Local Sites/fictional-university/app/public/wp-settings.php(546): include('/home/user/Loca...')
+#2 /home/user/Local Sites/fictional-university/app/public/wp-config.php(77): require_once('/home/user/Loca...')
+#3 /home/user/Local Sites/fictional-university/app/public/wp-load.php(50): require_once('/home/user/Loca...')
+#4 /home/user/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php(22): require_once('/home/user/Loca...')
+#5 {main}
+  thrown in /home/user/Local Sites/fictional-university/app/public/wp-includes/plugin.php on line 394
+[26-Nov-2021 21:51:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_files' not found or invalid function name in /home/user/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 303
+[26-Nov-2021 21:51:44 UTC] PHP Stack trace:
+[26-Nov-2021 21:51:44 UTC] PHP   1. {main}() /home/user/Local Sites/fictional-university/app/public/index.php:0
+[26-Nov-2021 21:51:44 UTC] PHP   2. require() /home/user/Local Sites/fictional-university/app/public/index.php:17
+[26-Nov-2021 21:51:44 UTC] PHP   3. require_once() /home/user/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[26-Nov-2021 21:51:44 UTC] PHP   4. include() /home/user/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[26-Nov-2021 21:51:44 UTC] PHP   5. get_header() /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single.php:1
+[26-Nov-2021 21:51:44 UTC] PHP   6. locate_template() /home/user/Local Sites/fictional-university/app/public/wp-includes/general-template.php:48
+[26-Nov-2021 21:51:44 UTC] PHP   7. load_template() /home/user/Local Sites/fictional-university/app/public/wp-includes/template.php:716
+[26-Nov-2021 21:51:44 UTC] PHP   8. require_once() /home/user/Local Sites/fictional-university/app/public/wp-includes/template.php:770
+[26-Nov-2021 21:51:44 UTC] PHP   9. wp_head() /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php:5
+[26-Nov-2021 21:51:44 UTC] PHP  10. do_action() /home/user/Local Sites/fictional-university/app/public/wp-includes/general-template.php:3015
+[26-Nov-2021 21:51:44 UTC] PHP  11. WP_Hook->do_action() /home/user/Local Sites/fictional-university/app/public/wp-includes/plugin.php:470
+[26-Nov-2021 21:51:44 UTC] PHP  12. WP_Hook->apply_filters() /home/user/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:327
+[26-Nov-2021 21:51:44 UTC] PHP  13. wp_enqueue_scripts() /home/user/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:303
+[26-Nov-2021 21:51:44 UTC] PHP  14. do_action() /home/user/Local Sites/fictional-university/app/public/wp-includes/script-loader.php:2083
+[26-Nov-2021 21:51:44 UTC] PHP  15. WP_Hook->do_action() /home/user/Local Sites/fictional-university/app/public/wp-includes/plugin.php:470
+[26-Nov-2021 21:51:44 UTC] PHP  16. WP_Hook->apply_filters() /home/user/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:327
+[01-Dec-2021 17:04:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 1
+[01-Dec-2021 17:04:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 1
+[01-Dec-2021 17:44:52 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 24
+[01-Dec-2021 18:08:27 UTC] PHP Parse error:  syntax error, unexpected 'fa' (T_STRING) in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 28
+[02-Dec-2021 15:44:08 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 43
+[06-Dec-2021 13:32:09 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/user/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 48
