@@ -138,3 +138,11 @@
 [06-Dec-2021 07:55:51] ERROR: FPM initialization failed
 [06-Dec-2021 07:55:51] ERROR: Another FPM instance seems to already listen on /home/user/.config/Local/run/1khi9DRda/php/php-fpm.socket
 [06-Dec-2021 07:55:51] ERROR: FPM initialization failed
+[07-Dec-2021 07:42:43] ERROR: Another FPM instance seems to already listen on /home/user/.config/Local/run/1khi9DRda/php/php-fpm.socket
+[07-Dec-2021 07:42:43] ERROR: FPM initialization failed
+[07-Dec-2021 07:42:44] ERROR: Another FPM instance seems to already listen on /home/user/.config/Local/run/1khi9DRda/php/php-fpm.socket
+[07-Dec-2021 07:42:44] ERROR: FPM initialization failed
+[07-Dec-2021 07:42:44] ERROR: Another FPM instance seems to already listen on /home/user/.config/Local/run/1khi9DRda/php/php-fpm.socket
+[07-Dec-2021 07:42:44] ERROR: FPM initialization failed
+[07-Dec-2021 07:42:45] ERROR: Another FPM instance seems to already listen on /home/user/.config/Local/run/1khi9DRda/php/php-fpm.socket
+[07-Dec-2021 07:42:45] ERROR: FPM initialization failed

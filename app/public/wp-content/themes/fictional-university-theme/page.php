@@ -36,7 +36,7 @@ while(have_posts()) {
         ?>
         <?php 
         $testArray = get_pages(array(
-            'child_of' = get_the_ID();
+            'child_of' => get_the_ID()
         )); //this function only returns pages in memory, not display
 
         if($theParent or $testArray ) { ?>
@@ -53,7 +53,7 @@ while(have_posts()) {
                 wp_list_pages(array(
                     'title_li' => NULL,
                     'child_of' => $findChildrenOf,
-                    'sort_column' => 'menu_order';
+                    'sort_column' => 'menu_order'
                 ));
                 
                 ?>

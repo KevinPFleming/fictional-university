@@ -1,11 +1,13 @@
 <!-- Type ! and press enter in an HTML file for boilerplate -->
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 <head>
-    <?php wp_head(); ?>
-    
+    <meta charset="<?php bloginfo('charset'); ?>">
+    <!-- Boilerplate for responsive design(below) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php wp_head(); ?>  
 </head>
-<body>
+<body <?php body_class(); ?>>
     
     <header class="site-header">
         <div class="container">
@@ -17,13 +19,23 @@
                 <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
             <div class="site-header__menu group">
                 <nav class="main-navigation">
-                    <ul>
-                        <li><a href="<?php echo site_url('/about-us') ?>">About Us</a></li>
+                    <?php 
+                    wp_nav_menu(array(
+                        'theme_location' => 'headerMenuLocation'
+                    ));
+                    ?>
+                    <!-- Above: wp_function replaces the static html below-can be edited in WP-ADMIN screen
+                        <ul>
+                        <li 
+                        <?php #if(is_page('about-us') or wp_get_post_parent_id(0)== 13) echo 'class="current-menu-item"' ?>
+                        ><a href="
+                        <?php# echo site_url('/about-us') ?>
+                        ">About Us</a></li>
                         <li><a href="#">Programs</a></li>
                         <li><a href="#">Events</a></li>
                         <li><a href="#">Campuses</a></li>
                         <li><a href="#">Blog</a></li>
-                    </ul>
+                    </ul> -->
                 </nav>
                 <div class="site-header__util">
                     <a href="#" class="btn btn--small btn--orange float-left push-right">Login</a>

@@ -19,6 +19,10 @@ add_action('wp_enqueue_scripts','university_files');
 //create custom function 
 function university_features() {
     add_theme_support('title-tag');
+    //below: made up first argument name-2nd name will appear on admin screen-Menu options appear in "Appearances" on admin screen //
+    register_nav_menu('headerMenuLocation', 'Header Menu Location');
+    register_nav_menu('footerLocationOne', 'Footer Location 1');
+    register_nav_menu('footerLocationTwo', 'Footer Location 2');
 }
 
 add_action('after_setup_theme', 'university_features')
